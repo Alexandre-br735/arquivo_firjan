@@ -1,0 +1,6 @@
+install.packages("openxlsx")
+library("openxlsx")
+ifdm <- read.xlsx("ifdm rj.xlsx")
+e_r <- read.xlsx("ranking ifdm e&r.xlsx")
+educacao <- read.xlsx("ranking ifdm educação.xlsx")
+saude <- read.xlsx("ranking ifdm saude.xlsx")
